@@ -30,7 +30,7 @@ public class Auth extends API{
 	public String getLoginToken(String userName, String passWord) {
 		createToken(userName, passWord);
 		String response = callIt();
-		//System.out.println(response);
+		System.out.println("logon token response = " + response);
 		return response;
 	}
 

@@ -1,6 +1,6 @@
 package com.restfulbooker.apitest.utilities;
 
-import com.mysql.*;
+
 import java.sql.*;
 import java.sql.DriverManager;
 import java.util.concurrent.Executors;

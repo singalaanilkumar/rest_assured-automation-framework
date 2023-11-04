@@ -1,3 +1,4 @@
+/*
 package com.restfulbooker.apitest.interfaces;
 
 import java.util.List;
@@ -50,3 +51,4 @@ public interface IApi {
 	public void printResp();
 
 }
+*/

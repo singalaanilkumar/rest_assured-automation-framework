@@ -14,7 +14,6 @@ import java.util.List;
 
 import com.restfulbooker.apitest.actions.HttpOperation;
 import com.restfulbooker.apitest.actions.ValidatorOperation;
-import com.restfulbooker.apitest.interfaces.IApi;
 import com.restfulbooker.apitest.utilities.Helper;
 
 import io.restassured.RestAssured;
@@ -26,7 +25,7 @@ import io.restassured.specification.RequestSpecification;
 import static org.hamcrest.Matchers.anyOf;
 
 
-public class API implements IApi {
+public class API /*implements IApi*/ {
 
 	RequestSpecification reqSpec;
 	HttpOperation method;
